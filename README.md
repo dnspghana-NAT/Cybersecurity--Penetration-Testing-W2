@@ -82,3 +82,9 @@ I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and
     *nslookup turns a domain name into its real IP address (192.232.216.135) as shown above
     * Knowing the IP an attacker scans the server directly
     * Look up other sites on the same IP, and map the target's infrastructure
+4.0 **Activity**: Read the HTTP response headers to see the server banner, status, cookies and redirects  
+
+4.1 **Curl -1** command
+I entered this: curl -I https://networkwalks.com by accessing the Kali terminal interface and the output was the screenshot shown below:
+
+![]()
