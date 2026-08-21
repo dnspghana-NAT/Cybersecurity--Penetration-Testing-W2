@@ -63,4 +63,4 @@ framework and IP address.
 2.1 **whatweb** command
    I entered this **whatweb networkwalks.com** by opening the Kali terminal and the output was the result displayed below:
 
- ![]()
+ ![Screenshot of whatweb command]()
