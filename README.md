@@ -69,8 +69,15 @@ framework and IP address.
     * whatweb exposes the exact software and versions for instants it shows this domain uses WordPress 7.0.4 and WP Download Manager 3.3.58)
     * An attacker looks at these versions up in vulnerability databases to find known exploits.
     * It also leaks the server IP and an email address which the attacker can leverage on to explore the target network
+    
 3.0 **Activity**: Resolve the domain name to its IP address using DNS
+
 3.1 **nslookup** command 
 I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and the output was the information displayed below:
-![]()
-    
+
+![Screenshot of nslookup](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1cc1d81e61321704989264100464bdadec65f661/SCREENSHOT%2 0NSLOOKUP%20AS%20KALI%20TOOL.PNG)
+3.2 **How is the information revealed useful to an attacker**
+   
+    *nslookup turns a domain name into its real IP address (192.232.216.135) as shown above
+    * Knowing the IP an attacker scans the server directly
+    * Look up other sites on the same IP, and map the target's infrastructure
