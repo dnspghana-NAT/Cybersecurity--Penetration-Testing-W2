@@ -51,7 +51,7 @@ was registered, and its name servers*
    I entered this **whois networkwalks.com**  by opening terminal in Kali  and the output of the was displayed as shown below:
 
   ![Screenshot of whois command](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1473547c2dae378a8769729e23cf60457dbaf5d9/SCREENSHOT%20WHOIS%20OUTPUT.PNG)
-1.2 **HOW IS THE ABOVE REVEALED INFORMATION USEFUL**
+1.2 **How is the above revealed information useful to an attacker**
 
         * whois reveals the registrar, registration and expiry dates, and name servers of networkwalks.com.  
         * Here the name servers point to HostGator, so any attacker instantly learns the hosting provider. 
@@ -63,4 +63,14 @@ framework and IP address.
 2.1 **whatweb** command
    I entered this **whatweb networkwalks.com** by opening the Kali terminal and the output was the result displayed below:
 
- ![Screenshot of whatweb command]()
+ ![Screenshot of whatweb command](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/414095d1217c44cf9a87107bda003b834316755c/SCREENSHOT%20WHATWEB%20OUTPUT.PNG)
+2.2 **How is the above revealed information useful to an attacker**
+
+    * whatweb exposes the exact software and versions for instants it shows this domain uses WordPress 7.0.4 and WP Download Manager 3.3.58)
+    * An attacker looks at these versions up in vulnerability databases to find known exploits.
+    * It also leaks the server IP and an email address which the attacker can leverage on to explore the target network
+3.0 **Activity**: Resolve the domain name to its IP address using DNS
+3.1 **nslookup** command 
+I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and the output was the information displayed below:
+![]()
+    
