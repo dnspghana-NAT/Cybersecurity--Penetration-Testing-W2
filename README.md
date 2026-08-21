@@ -46,6 +46,6 @@ The table below show the types of tools used in the process and their respective
 I performed reconnaissance against the networkwalks.com domain using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f and DNSRecon. Each tool was used to collect a different type of information about the target. The strategies and procedures used to gather the target network information include the following:
 
 1. **WHOIS** command.
-   I entered this command and the output of the was displayed as shown below:
+   I entered this **whois networkwalks.com**  by opening terminal in Kali  and the output of the was displayed as shown below:
 
-  ![Screenshot of whois command]()
+  ![Screenshot of whois command](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1473547c2dae378a8769729e23cf60457dbaf5d9/SCREENSHOT%20WHOIS%20OUTPUT.PNG)
