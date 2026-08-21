@@ -87,4 +87,4 @@ I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and
 4.1 **Curl -1** command
 I entered this: curl -I https://networkwalks.com by accessing the Kali terminal interface and the output was the screenshot shown below:
 
-![]()
+![Screenshot of Curl-I]()
