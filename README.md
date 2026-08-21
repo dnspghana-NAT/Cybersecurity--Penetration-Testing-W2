@@ -75,7 +75,8 @@ framework and IP address.
 3.1 **nslookup** command 
 I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and the output was the information displayed below:
 
-![Screenshot of nslookup](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1cc1d81e61321704989264100464bdadec65f661/SCREENSHOT%2 0NSLOOKUP%20AS%20KALI%20TOOL.PNG)
+![Screenshot of nslookup](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1cc1d81e61321704989264100464bdadec65f661/SCREENSHOT%20NSLOOKUP%20AS%20KALI%20TOOL.PNG)
+
 3.2 **How is the information revealed useful to an attacker**
    
     *nslookup turns a domain name into its real IP address (192.232.216.135) as shown above
