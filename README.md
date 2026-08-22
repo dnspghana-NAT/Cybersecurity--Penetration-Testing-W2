@@ -1,8 +1,8 @@
-**# Cybersecurity--Penetration-Testing Report-W2**
+# Cybersecurity--Penetration-Testing Report-W2
 
-**# PENETRATION TESTING REPORT**
+## PENETRATION TESTING REPORT
 
-**## FOOTPRINTING & NETWORK SCANNING PHASES**
+## FOOTPRINTING & NETWORK SCANNING PHASES
 
 |Cybersecurity| Week -Two Project Module| Networkwalks|
 
@@ -14,17 +14,20 @@
 |Permission secured from Target Client| Permission obtained|
 |Project Scope/phases covered| Phase1: Reconnaissance & Foot printing. Phase2: Scanning & Network Discovery|
  
-**# Liability Disclaimer**
+# Liability Disclaimer
 
 I have performed these activities only on the systems & devices where I had secured written permission or the devices/systems that I own myself. All these materials are for education and research purpose only. I did not use anything from here to break the law. The instructor, the authors and Networkwalks are not responsible for what you do with this knowledge. Every action you take is your own responsibility. Misuse can lead to criminal charges, heavy fines, loss of your job and a permanent record. In most countries unauthorised access is a crime even when nothing is damaged.
 
- 
-**# General Background and Introduction**
+# WEEK 2 PROJECT MODULE 1
+
+## RECONAISSANCE AND FOOTPRINTING SIX KALI LINUX TOOLS
+
+**General Background and Introduction**
 
 This report covered footprinting the networkwalks.com domain using multiple Kali Linux tools as specified in TOR (W2-PM1) and scanning the local network with Zenmap as referenced in (W2-PM5). The project Module one (1) covers footprinting  and  scanning phase. This together show how public information will be gathered by mapping live hosts on the target network. This was part of ongoing internship program at Networkwalks categorized as week two (W2).
 All commands were run in Kali Linux (footprinting) and on a Windows PC with Zenmap installed (scanning). Every step below includes the exact command used, the results observed were displayed as screenshot as evidence, and a short note on why the finding matters from an attacker's point of view.
 
-**# The Scope of Tools use and the Purpose**
+## The Scope of Tools use and the Purpose**
 
 The table below show the types of tools used in the process and their respective purpose
 |Tools                                                             | Purpose                                     |
@@ -39,9 +42,9 @@ The table below show the types of tools used in the process and their respective
 |Zenmap (Nmap GUI)                   |Scan the local subnet to find live hosts, IPs and MAC addresses.|
 |Windows CMD|Local IP and MAC address identification|
 
-**# ACTIVITIES PERFORMED UNDER THE MODULES**
+1. ## ACTIVITIES PERFORMED UNDER THE MODULES
 
-**## Footprinting & Reconnaissance**
+   ## Footprinting & Reconnaissance**
 
 I performed reconnaissance against the networkwalks.com domain using six Kali Linux tools: WHOIS, WhatWeb, Nslookup, Curl, Wafw00f and DNSRecon. Each tool was used to collect a different type of information about the target. The strategies and procedures used to gather the target network information include the following:
 
@@ -116,9 +119,25 @@ Here I entered this: dnsrecon -d networkwalks.com and the displayed was shown be
 ![Screenshot of dnsrecon](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1bc18df97991834063525987e10e660e4085d3e7/SCREENSHOT%20DNSRECON%20AS%20OUTPUT%20KALI%20TOOL.PNG)
 
 6.2 **How is the information revealed useful to an attacker**
+
       *dnsrecon maps the target's entire DNS footprint:
       * mail servers, 
       *DNS software version (Bind 9.16.23), 
        *SPF policy  
        *CPanel service records.
        * Each record is a potential foothold and helps an attacker understand the email and hosting setup
+
+Conclusively on the project module one,  footprinting and Reconnaissance is crucial because Reconnaissance is the first stage of every real attack. Before touching a target, an attacker quietly builds a complete profile of it using only public information, exactly the
+tools in this task. whois and DNS tools (nslookup, dnsrecon) reveal who owns the domain, its real IP address, its hosting provider and its mail servers. whatweb and curl fingerprint the exact software and versions running, which an attacker matches against known vulnerabilities. wafw00f warns them whether a firewall is watching, so they know how careful to be.None of these tools attack the target. They only read what is already public, which is exactly why footprinting is so powerful and so hard to detect. The more an organization leaks, the easier every later stage of the attack becomes. This is also why defenders run the same tools on themselves: to see what an attacker would see, and to reduce it. 
+
+# WEEK 2 PROJECT MODULE 5
+
+## NETWORK SCANNING WITH ZENMAP
+
+**Background**
+
+Zenmap is the official GUI version of Nmap which can be used on Windows PC. It is a security scanner software tool which is used by Cybersecurity professionals & Hackers. It is a multi-platform (Linux, Windows, Mac OS X, BSD, etc.) free and open source application which aims to make Nmap easy for beginners to use while providing advanced features for experienced Nmap users. Frequently used scans can be saved as profiles to make them easy to run repeatedly.
+
+2.**# ACTIVITIES PERFORMED UNDER THE MODULES 5**
+2.1 **Activity**: Download & install Zenmap from official website on your Windows PC
+      What was done: Zenmap was downloaded from the official website on the windows computer through: https://nmap.org/download.html
