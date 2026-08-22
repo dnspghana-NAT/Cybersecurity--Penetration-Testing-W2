@@ -146,7 +146,10 @@ op
    ![Zenmap installing process](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/b6410fd8d857df51ee7fe8b0bf5d452f10d1d337/zenmap%20installing%20process.PNG)
       
 2.2  **Activity**: Find your local IP address & your LAN subnet 
-      what was done:
+      what was done: I Opened CMD & run ipconfig command to find your PC’s local IP address & 
+your local LAN subnet as displayed below:
+
+![]()
       
 2.3  **Activity**:  Find the list of live hosts/PC’s in your IP subnet
       what was done:
