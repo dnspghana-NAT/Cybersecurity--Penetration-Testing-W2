@@ -96,6 +96,21 @@ I entered this: curl -I https://networkwalks.com by accessing the Kali terminal 
        * Attackers read headers to fingerprint the stack and find entry points without even loading the full page.
 
 5.0 **Activity**: Detect whether a Web Application Firewall (WAF) is protecting the target site.
+
 5.1 **wafw00f** command
 Here I opened the Kali terminal entered this: wafw00f networkwalks.com and the output was what shown in the screenshot below:
-![]()
+
+![wafw00f screenshot](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/ecb2de96e47908cdd21bb0a62b17ce38bde2dea9/SCREENSHOT%20WAFW00F%20OUTPUT%20AS%20KALI%20TOOL.PNG)
+
+5.2 **How is the information revealed useful to an attacker**
+
+     *wafw00f tells an attacker if a firewall is watching
+     *Here the site sits behind ModSecurity (SpiderLabs).
+     * Knowing a WAF is present shapes the whole attack
+     *Naive attempts will be blocked or logged, so the attacker must adapt or try to bypass it.
+
+6.0 **Enumerate all DNS records: name servers, mail servers, SPF, TXT and service (SRV) records**
+6.1 **dnsrecon** command 
+Here I entered this: dnsrecon -d networkwalks.com and the displayed was shown below
+
+![Screenshot of dnsrecon]()
