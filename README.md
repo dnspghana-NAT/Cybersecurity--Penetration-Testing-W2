@@ -154,19 +154,29 @@ your local LAN subnet as displayed below:
 2.3  **Activity**:  Find the list of live hosts/PC’s in your IP subnet
       what was done: I Opened Zenmap, input the local LAN subnet & select Ping Scan to find the list of 
 live hosts in your subnet as shown below:
+
 ![Zenmap ping scan]()
       
 2.4  **Activity**: How many hosts are live in your subnet?
       what was done:
-      
+      I scanned the local subnet and found five live host.
 2.5  **Activity**: What are the IP addresses of the live hosts?
        what was done:
+       The following were the IP addresses found
+       *10.0.0.1
+       *10.0.0.2
+       *10.0.0.3
+       *10.0.0.6
+       *10.0.0.10
        
 2.6   **Activity**: What are the MAC addresses of the live hosts?
-        what was done:
-        
+        what was done: I scan the network and the following were the MAC addresses found:
+        *52:54:00:12:35:00 
+        *08:00:27:58:A4:59 
+        *52:54:00:12:35:00 
+        *08:00:27:5A:87:BC
 2.7   **Activity**: Display & save the output topology in PDF Format on your desktop
-        what was done:
+        what was done: I scanned the network and the topology shown below:
 
 ## Risk and Impact Analysis
 
