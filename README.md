@@ -181,7 +181,7 @@ live hosts in your subnet as shown below:
 2.7   **Activity**: Display & save the output topology in PDF Format on your desktop
         what was done: I scanned the network and the topology shown below:
 ![network topology](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/769ba7d18f93ee22c42b5a3c55855af4c8743dbf/Zenmap%20topology.PNG)
-![topology]()
+![topology](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/46f104b2b4d9e1ba8aa487435686b8326e45b657/.pdf)
 
 ## Risk and Impact Analysis
 
