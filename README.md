@@ -171,6 +171,7 @@ live hosts in your subnet as shown below:
        *10.0.0.10
        
 2.6   **Activity**: What are the MAC addresses of the live hosts?
+        
         what was done: 
         I scan the network and the following were the MAC addresses found:
         *52:54:00:12:35:00 
