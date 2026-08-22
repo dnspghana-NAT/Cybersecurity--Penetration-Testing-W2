@@ -152,7 +152,9 @@ your local LAN subnet as displayed below:
 ![Ipconfig command](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/8d82f943029e4116818cabe197bb4b208b531fa6/cmd%20ipconfig.PNG)
       
 2.3  **Activity**:  Find the list of live hosts/PC’s in your IP subnet
-      what was done:
+      what was done: I Opened Zenmap, input the local LAN subnet & select Ping Scan to find the list of 
+live hosts in your subnet as shown below:
+![Zenmap ping scan]()
       
 2.4  **Activity**: How many hosts are live in your subnet?
       what was done:
