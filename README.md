@@ -139,18 +139,25 @@ tools in this task. whois and DNS tools (nslookup, dnsrecon) reveal who owns the
 Zenmap is the official GUI version of Nmap which can be used on Windows PC. It is a security scanner software tool which is used by Cybersecurity professionals & Hackers. It is a multi-platform (Linux, Windows, Mac OS X, BSD, etc.) free and open source application which aims to make Nmap easy for beginners to use while providing advanced features for experienced Nmap users. Frequently used scans can be saved as profiles to make them easy to run repeatedly.
 op
 2.**# ACTIVITIES PERFORMED UNDER THE MODULES 5**
+
 2.1 **Activity**: Download & install Zenmap from official website on your Windows PC
       What was done: Zenmap was downloaded from the official website on the windows computer through: https://nmap.org/download.html
+      
 2.2  **Activity**: Find your local IP address & your LAN subnet 
       what was done:
+      
 2.3  **Activity**:  Find the list of live hosts/PC’s in your IP subnet
       what was done:
+      
 2.4  **Activity**: How many hosts are live in your subnet?
       what was done:
+      
 2.5  **Activity**: What are the IP addresses of the live hosts?
        what was done:
+       
 2.6   **Activity**: What are the MAC addresses of the live hosts?
         what was done:
+        
 2.7   **Activity**: Display & save the output topology in PDF Format on your desktop
         what was done:
 
