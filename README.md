@@ -87,4 +87,9 @@ I entered this: **nslookup networkwalks.com** by accessing the Kali terminal and
 4.1 **Curl -1** command
 I entered this: curl -I https://networkwalks.com by accessing the Kali terminal interface and the output was the screenshot shown below:
 
-![Screenshot of Curl-I]()
+![Screenshot of Curl-I](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/d685469f39f9c0fd06e98abbf0d4fe57d90a45ce/SCREENSHOT%20CURL-I%20OUTPUT%20AS%20KALI%20TOOL.PNG)
+
+4.2 **How is the information revealed useful to an attacker**
+      *HTTP headers leak the web server
+      *Caching stack and hidden endpoints (like the WordPress REST API at /wp-json/)
+      * Attackers read headers to fingerprint the stack and find entry points without even loading the full page.
