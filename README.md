@@ -161,6 +161,7 @@ live hosts in your subnet as shown below:
       what was done:
       I scanned the local subnet and found five live host.
 2.5  **Activity**: What are the IP addresses of the live hosts?
+       
        what was done:
        The following were the IP addresses found
        *10.0.0.1
@@ -170,7 +171,8 @@ live hosts in your subnet as shown below:
        *10.0.0.10
        
 2.6   **Activity**: What are the MAC addresses of the live hosts?
-        what was done: I scan the network and the following were the MAC addresses found:
+        what was done: 
+        I scan the network and the following were the MAC addresses found:
         *52:54:00:12:35:00 
         *08:00:27:58:A4:59 
         *52:54:00:12:35:00 
