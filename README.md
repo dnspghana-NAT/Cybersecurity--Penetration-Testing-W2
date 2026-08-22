@@ -155,7 +155,7 @@ your local LAN subnet as displayed below:
       what was done: I Opened Zenmap, input the local LAN subnet & select Ping Scan to find the list of 
 live hosts in your subnet as shown below:
 
-![Zenmap ping scan]()
+![Zenmap ping scan](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/eb7760dba2d7761e410aef415fbf98c6fd92a377/Zenmap%20ping%20scan.PNG)
       
 2.4  **Activity**: How many hosts are live in your subnet?
       what was done:
