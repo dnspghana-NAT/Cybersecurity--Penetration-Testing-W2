@@ -143,7 +143,7 @@ op
 2.1 **Activity**: Download & install Zenmap from official website on your Windows PC
       What was done: Zenmap was downloaded from the official website on the windows computer through: https://nmap.org/download.html and installed as shown below:
 
-      ![Zenmap installing process]()
+   ![Zenmap installing process](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/b6410fd8d857df51ee7fe8b0bf5d452f10d1d337/zenmap%20installing%20process.PNG)
       
 2.2  **Activity**: Find your local IP address & your LAN subnet 
       what was done:
