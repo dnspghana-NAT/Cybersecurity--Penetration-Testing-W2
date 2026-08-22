@@ -149,7 +149,7 @@ op
       what was done: I Opened CMD & run ipconfig command to find your PC’s local IP address & 
 your local LAN subnet as displayed below:
 
-![]()
+![Ipconfig command]()
       
 2.3  **Activity**:  Find the list of live hosts/PC’s in your IP subnet
       what was done:
