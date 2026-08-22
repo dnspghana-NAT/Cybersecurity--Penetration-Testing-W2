@@ -114,3 +114,11 @@ Here I opened the Kali terminal entered this: wafw00f networkwalks.com and the o
 Here I entered this: dnsrecon -d networkwalks.com and the displayed was shown below
 
 ![Screenshot of dnsrecon](https://github.com/dnspghana-NAT/Cybersecurity--Penetration-Testing-W2/blob/1bc18df97991834063525987e10e660e4085d3e7/SCREENSHOT%20DNSRECON%20AS%20OUTPUT%20KALI%20TOOL.PNG)
+
+6.2 **How is the information revealed useful to an attacker**
+      *dnsrecon maps the target's entire DNS footprint:
+      * mail servers, 
+      *DNS software version (Bind 9.16.23), 
+       *SPF policy  
+       *CPanel service records.
+       * Each record is a potential foothold and helps an attacker understand the email and hosting setup
