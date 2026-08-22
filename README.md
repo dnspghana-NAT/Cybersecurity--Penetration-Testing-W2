@@ -177,7 +177,7 @@ live hosts in your subnet as shown below:
         *08:00:27:5A:87:BC
 2.7   **Activity**: Display & save the output topology in PDF Format on your desktop
         what was done: I scanned the network and the topology shown below:
-
+![network topology]()
 ## Risk and Impact Analysis
 
 Based on the information collected during the footprinting and network scanning activities, I identified the following potential risks. as depicted in the table below:
