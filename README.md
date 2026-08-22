@@ -141,7 +141,9 @@ op
 2.**# ACTIVITIES PERFORMED UNDER THE MODULES 5**
 
 2.1 **Activity**: Download & install Zenmap from official website on your Windows PC
-      What was done: Zenmap was downloaded from the official website on the windows computer through: https://nmap.org/download.html
+      What was done: Zenmap was downloaded from the official website on the windows computer through: https://nmap.org/download.html and installed as shown below:
+
+      ![Zenmap installing process]()
       
 2.2  **Activity**: Find your local IP address & your LAN subnet 
       what was done:
