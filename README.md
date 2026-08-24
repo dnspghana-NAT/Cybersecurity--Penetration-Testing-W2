@@ -1,8 +1,8 @@
 # Cybersecurity--Penetration-Testing Report-W2
 
-## PENETRATION TESTING REPORT
+## PENETRATION TESTING REPORT-B082/WEEK 2
 
-## FOOTPRINTING & NETWORK SCANNING PHASES
+## FOOTPRINTING/RECONNAISSANCE & NETWORK SCANNING PHASES
 
 |Cybersecurity| Week -Two Project Module| Networkwalks|
 
@@ -227,5 +227,9 @@ The exercises showed me that information gathering is an important part of cyber
 I also learned that technical findings should be documented clearly. A good cybersecurity report should explain what was performed, what was discovered, what the observation means, what risk it may create, and what can be done to reduce that risk.
 Finally, I learned that reconnaissance and scanning must always be performed within an authorized scope. These activities were completed as part of the assigned educational cybersecurity lab.
 ## Mentor
+Waqas Karim (CCIE) 1stTechnical Trainer & Pre-sales (Cisco, Cybersecurity, AI, Python, Linux) - Official Cisco Instructor
 ## Author
+Nathaniel Apuru Avaraako 
+(Network Assistant Engineer, Network Security, Cybersecurity professional)
+
 
